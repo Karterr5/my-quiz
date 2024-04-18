@@ -286,7 +286,7 @@ function q6d() {
 }
 
 function q7a() {
-    q7ans.value = 'Venus';
+    q7ans.value = 'Saturn';
 }
 function q7b() {
     q7ans.value = 'Mars';
@@ -295,7 +295,7 @@ function q7c() {
     q7ans.value = 'Jupiter';
 }
 function q7d() {
-    q7ans.value = 'Saturn';
+    q7ans.value = 'Venus';
 }
 
 function q8a() {
@@ -360,8 +360,8 @@ function submit(myInterval) {
     amazon.style.backgroundColor = 'green';
     amazon.style.color = 'white';
 
-    saturn.style.backgroundColor = 'green';
-    saturn.style.color = 'white';
+    venus.style.backgroundColor = 'green';
+    venus.style.color = 'white';
 
     rome.style.backgroundColor = 'green';
     rome.style.color = 'white';
@@ -378,42 +378,52 @@ function submit(myInterval) {
 
     if(q1ans.value === 'Caracas'){
         counter++;
+        console.log(counter);
     }
 
     if(q2ans.value === 'Java'){
         counter++;
+        console.log(counter);
     }
     
     if(q3ans.value === '1945'){
         counter++;
+        console.log(counter);
     }
     
     if(q4ans.value === '118'){
         counter++;
+        console.log(counter);
     }
     
     if(q5ans.value === 'Nike'){
         counter++;
+        console.log(counter);
     }
     
     if(q6ans.value === 'Amazon'){
         counter++;
+        console.log(counter);
     }
     
-    if(q7ans.value === 'Saturn'){
+    if(q7ans.value === 'Venus'){
         counter++;
+        console.log(counter);
     }
     
     if(q8ans.value === 'Rome'){
         counter++;
+        console.log(counter);
     }
     
     if(q9ans.value === 'Embarrassment'){
         counter++;
+        console.log(counter);
     }
     
     if(q10ans.value === 'Delta'){
         counter++;
+        console.log(counter);
     }
 
     result.style.display = 'flex';
