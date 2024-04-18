@@ -6,7 +6,7 @@ let minutes = document.getElementById('minutes');
 let seconds = document.getElementById('seconds');
 
 // Timer template
-let min = 3;
+let min = 2;
 let sec = 0;
 
 let submitBtn = document.getElementById('submit')
@@ -338,10 +338,9 @@ function q10d() {
 }
 
 // submit answers
-function submit(myInterval) {
+function submit() {
     clearInterval(myInterval);
-
-
+    
     caracas.style.backgroundColor = 'green';
     caracas.style.color = 'white';
 
