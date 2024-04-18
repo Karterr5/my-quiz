@@ -98,7 +98,7 @@ loginBtn.addEventListener('click', function () {
                 q8.style.display = 'none';
                 q9.style.display = 'none';
                 q10.style.display = 'none';
-                submits();
+                submit();
             }
 
         }, 1000);
