@@ -86,6 +86,8 @@ loginBtn.addEventListener('click', function () {
                 minutes.innerHTML = min;
             }
             if (min < 0) {
+                minutes.innerHTML = '00';
+                seconds.innerHTML = '00';
                 alert(`Time's up, ${nam.value}`)
                 clearInterval (myInterval);
                 q1.style.display = 'none';
