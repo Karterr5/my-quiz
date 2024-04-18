@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <div id="time-con">
+            <div class="timer">
+                <span id="minutes">00</span> :
+                <span id="seconds">00</span>
+
+            </div>
+
+        </div>
+
+        <section>
+            <form action="#" id="form">
+                
+                <label for="name">Name</label> <br>
+                <input type="text" id="name" placeholder="Enter your name">
+                
+                <br> <br>
+
+                <label for="gender">Gender</label>
+                
+                <br>
+                
+                <select name="" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            
+                <br> <br>
+
+                <button type="submit" id="login">Start Quiz</button>
+
+            </form>
+
+            <div id="q1">
+                <p>1. What is the Capital of Venezuela?</p>
+
+                <input type="text" id="q1ans" disabled>
+                <br><br>
+
+                <li onclick="q1a()">a. Rosario</li>
+                <li onclick="q1b()" id="caracas">b. Caracas</li>
+                <li onclick="q1c()">c. San Jose</li>
+                <li onclick="q1d()">d. Santiago</li>
+
+                <button id="next1" onclick="next1()">Next</button>
+                
+            </div>
+
+            <div id="q2">
+                <p>2. Which of these is not a Javascript Framework?</p>
+
+                <input type="text" id="q2ans" disabled>
+                <br><br>
+
+                <li onclick="q2a()">a. Vue</li>
+                <li onclick="q2b()" id="java">b. Java</li>
+                <li onclick="q2c()">c. Angular</li>
+                <li onclick="q2d()">d. React</li>
+
+                <button id="next2" onclick="next2()">Next</button>
+                <button id="prev2" onclick="prev2()">Previous</button>
+            </div>
+
+            <div id="q3">
+                <p>3. In what year was the United Nations Established?</p>
+
+                <input type="text" id="q3ans" disabled>
+                <br><br>
+
+                <li onclick="q3a()" id="year">a. 1945</li>
+                <li onclick="q3b()">b. 1920</li>
+                <li onclick="q3c()">c. 1988</li>
+                <li onclick="q3d()">d. 1967</li>
+
+                <button id="next3" onclick="next3()">Next</button>
+                <button id="prev3" onclick="prev3()">Previous</button>
+            </div>
+
+            <div id="q4">
+                <p>4. How many elements are on the Periodic table?</p>
+
+                <input type="text" id="q4ans" disabled>
+                <br><br>
+
+                <li onclick="q4a()">a. 105</li>
+                <li onclick="q4b()">b. 80</li>
+                <li onclick="q4c()" id="element">c. 118</li>
+                <li onclick="q4d()">d. 165</li>
+
+                <button id="next4" onclick="next4()">Next</button>
+                <button id="prev4" onclick="prev4()">Previous</button>
+            </div>
+
+            <div id="q5">
+                <p>5. Which company was formerly known as "blue ribbon sports"?</p>
+
+                <input type="text" id="q5ans" disabled>
+                <br><br>
+
+                <li onclick="q5a()">a. New Balance</li>
+                <li onclick="q5b()">b. Adidas</li>
+                <li onclick="q5c()" id="nike">c. Nike</li>
+                <li onclick="q5d()">d. Fila</li>
+
+                <button id="next5" onclick="next5()">Next</button>
+                <button id="prev5" onclick="prev5()">Previous</button>
+            </div>
+
+            <div id="q6">
+                <p>6. Which company was originally called "Cadabra"</p>
+
+                <input type="text" id="q6ans" disabled>
+                <br><br>
+
+                <li onclick="q6a()">a. Google</li>
+                <li onclick="q6b()" id="amazon">b. Amazon</li>
+                <li onclick="q6c()">c. Asos</li>
+                <li onclick="q6d()">d. Ali Express</li>
+
+                <button id="next6" onclick="next6()">Next</button>
+                <button id="prev6" onclick="prev6()">Previous</button>
+            </div>
+
+            <div id="q7">
+                <p>7. Which panet in the Milky Way is the hottest?</p>
+
+                <input type="text" id="q7ans" disabled>
+                <br><br>
+
+                <li onclick="q7a()">a. Venus</li>
+                <li onclick="q7b()">b. Mars</li>
+                <li onclick="q7c()">c. Jupiter</li>
+                <li onclick="q7d()" id="saturn">d. Saturn</li>
+
+                <button id="next7" onclick="next7()">Next</button>
+                <button id="prev7" onclick="prev7()">Previous</button>
+            </div>
+
+            <div id="q8">
+                <p>8. What city is known as the "Eternal City"</p>
+
+                <input type="text" id="q8ans" disabled>
+                <br><br>
+
+                <li onclick="q8a()" id="rome">a. Rome</li>
+                <li onclick="q8b()">b. Egypt</li>
+                <li onclick="q8c()">c. Anthens</li>
+                <li onclick="q8d()">d. Jerico</li>
+
+                <button id="next8" onclick="next8()">Next</button>
+                <button id="prev8" onclick="prev8()">Previous</button>
+            </div>
+
+            <div id="q9">
+                <p>9. What is a group of pandas known as?</p>
+
+                <input type="text" id="q9ans" disabled>
+                <br><br>
+
+                <li onclick="q9a()">a. Herd</li>
+                <li onclick="q9b()">b. Pride</li>
+                <li onclick="q9c()" id="panda">c. Embarrassment</li>
+                <li onclick="q9d()">d. School</li>
+
+                <button id="next9" onclick="next9()">Next</button>
+                <button id="prev9" onclick="prev9()">Previous</button>
+            </div>
+
+            <div id="q10">
+                <p>10. What is the 4th letter of the Greek alphabet?</p>
+
+                <input type="text" id="q10ans" disabled>
+                <br><br>
+
+                <li onclick="q10a()">a. Alpha</li>
+                <li onclick="q10b()" id="delta">b. Delta</li>
+                <li onclick="q10c()">c. Omega</li>
+                <li onclick="q10d()">d. Gamma</li>
+
+                <button id="prev10" onclick="prev10()">Previous</button>
+                <button id="submit" onclick="submit()">Submit</button>
+            </div>
+            
+            <h1 id="results"></h1>
+
+            <button id="show" onclick="show()">Show Answers</button>
+        </section>
+    </main>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
