@@ -390,7 +390,7 @@ function submit(myInterval) {
         counter++;
     }
     
-    if(q5ans.value === '4'){
+    if(q5ans.value === 'Nike'){
         counter++;
     }
     
@@ -406,7 +406,7 @@ function submit(myInterval) {
         counter++;
     }
     
-    if(q9ans.value === 'Nike'){
+    if(q9ans.value === 'Embarrassment'){
         counter++;
     }
     
